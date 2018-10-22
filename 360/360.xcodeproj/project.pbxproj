@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2712081F215A254400B79F22 /* picViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2712081E215A254400B79F22 /* picViewController.m */; };
+		2742DF442158E9F90058E83B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2742DF432158E9F90058E83B /* AppDelegate.m */; };
+		2742DF472158E9F90058E83B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2742DF462158E9F90058E83B /* ViewController.m */; };
+		2742DF4A2158E9F90058E83B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2742DF482158E9F90058E83B /* Main.storyboard */; };
+		2742DF4C2158E9F90058E83B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2742DF4B2158E9F90058E83B /* Assets.xcassets */; };
+		2742DF4F2158E9F90058E83B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2742DF4D2158E9F90058E83B /* LaunchScreen.storyboard */; };
+		2742DF522158E9F90058E83B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2742DF512158E9F90058E83B /* main.m */; };
+		2742DF5F2158EB300058E83B /* GLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 2742DF582158EB2F0058E83B /* GLProgram.m */; };
+		2742DF602158EB300058E83B /* HTY360PlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2742DF592158EB2F0058E83B /* HTY360PlayerVC.m */; };
+		2742DF612158EB300058E83B /* HTYGLKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2742DF5A2158EB2F0058E83B /* HTYGLKVC.m */; };
+		2742DF622158EB300058E83B /* HTY360PlayerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2742DF5C2158EB2F0058E83B /* HTY360PlayerVC.xib */; };
+		2742DF642158EB9B0058E83B /* demo.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 2742DF632158EB9B0058E83B /* demo.m4v */; };
+		2742DF672158EC5F0058E83B /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 2742DF652158EC5E0058E83B /* Shader.vsh */; };
+		2742DF682158EC5F0058E83B /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 2742DF662158EC5E0058E83B /* Shader.fsh */; };
+		2742DF802159103E0058E83B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2742DF7F2159103E0058E83B /* GLKit.framework */; };
+		2742DF83215915980058E83B /* panoimageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2742DF82215915980058E83B /* panoimageViewController.m */; };
+		2742DF862159161C0058E83B /* PanoramaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2742DF842159161C0058E83B /* PanoramaView.m */; };
+		2742DF882159167F0058E83B /* park_2048.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2742DF872159167E0058E83B /* park_2048.jpg */; };
+		2742DF8A215917160058E83B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2742DF89215917160058E83B /* OpenGLES.framework */; };
+		2742DF8C215917260058E83B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2742DF8B215917250058E83B /* CoreMotion.framework */; };
+		2742DF8E215917310058E83B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2742DF8D215917300058E83B /* Foundation.framework */; };
+		2742DF90215917390058E83B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2742DF8F215917390058E83B /* CoreGraphics.framework */; };
+		2742DF92215917410058E83B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2742DF91215917410058E83B /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2712081D215A254400B79F22 /* picViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = picViewController.h; sourceTree = "<group>"; };
+		2712081E215A254400B79F22 /* picViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = picViewController.m; sourceTree = "<group>"; };
+		2742DF3F2158E9F90058E83B /* 360.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 360.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2742DF422158E9F90058E83B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2742DF432158E9F90058E83B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2742DF452158E9F90058E83B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2742DF462158E9F90058E83B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2742DF492158E9F90058E83B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2742DF4B2158E9F90058E83B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2742DF4E2158E9F90058E83B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2742DF502158E9F90058E83B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2742DF512158E9F90058E83B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2742DF582158EB2F0058E83B /* GLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLProgram.m; sourceTree = "<group>"; };
+		2742DF592158EB2F0058E83B /* HTY360PlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTY360PlayerVC.m; sourceTree = "<group>"; };
+		2742DF5A2158EB2F0058E83B /* HTYGLKVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTYGLKVC.m; sourceTree = "<group>"; };
+		2742DF5B2158EB2F0058E83B /* GLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLProgram.h; sourceTree = "<group>"; };
+		2742DF5C2158EB2F0058E83B /* HTY360PlayerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTY360PlayerVC.xib; sourceTree = "<group>"; };
+		2742DF5D2158EB300058E83B /* HTYGLKVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTYGLKVC.h; sourceTree = "<group>"; };
+		2742DF5E2158EB300058E83B /* HTY360PlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTY360PlayerVC.h; sourceTree = "<group>"; };
+		2742DF632158EB9B0058E83B /* demo.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.m4v; sourceTree = "<group>"; };
+		2742DF652158EC5E0058E83B /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		2742DF662158EC5E0058E83B /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		2742DF7F2159103E0058E83B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		2742DF81215915980058E83B /* panoimageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = panoimageViewController.h; sourceTree = "<group>"; };
+		2742DF82215915980058E83B /* panoimageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = panoimageViewController.m; sourceTree = "<group>"; };
+		2742DF842159161C0058E83B /* PanoramaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramaView.m; sourceTree = "<group>"; };
+		2742DF852159161C0058E83B /* PanoramaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramaView.h; sourceTree = "<group>"; };
+		2742DF872159167E0058E83B /* park_2048.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = park_2048.jpg; sourceTree = "<group>"; };
+		2742DF89215917160058E83B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2742DF8B215917250058E83B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		2742DF8D215917300058E83B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2742DF8F215917390058E83B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2742DF91215917410058E83B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2742DF3C2158E9F90058E83B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2742DF92215917410058E83B /* UIKit.framework in Frameworks */,
+				2742DF90215917390058E83B /* CoreGraphics.framework in Frameworks */,
+				2742DF8E215917310058E83B /* Foundation.framework in Frameworks */,
+				2742DF8C215917260058E83B /* CoreMotion.framework in Frameworks */,
+				2742DF8A215917160058E83B /* OpenGLES.framework in Frameworks */,
+				2742DF802159103E0058E83B /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2742DF362158E9F90058E83B = {
+			isa = PBXGroup;
+			children = (
+				2742DF412158E9F90058E83B /* 360 */,
+				2742DF402158E9F90058E83B /* Products */,
+				2742DF7E2159103D0058E83B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2742DF402158E9F90058E83B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2742DF3F2158E9F90058E83B /* 360.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2742DF412158E9F90058E83B /* 360 */ = {
+			isa = PBXGroup;
+			children = (
+				2742DF422158E9F90058E83B /* AppDelegate.h */,
+				2742DF432158E9F90058E83B /* AppDelegate.m */,
+				2742DF452158E9F90058E83B /* ViewController.h */,
+				2742DF462158E9F90058E83B /* ViewController.m */,
+				2742DF81215915980058E83B /* panoimageViewController.h */,
+				2742DF82215915980058E83B /* panoimageViewController.m */,
+				2712081D215A254400B79F22 /* picViewController.h */,
+				2712081E215A254400B79F22 /* picViewController.m */,
+				2742DF852159161C0058E83B /* PanoramaView.h */,
+				2742DF842159161C0058E83B /* PanoramaView.m */,
+				2742DF872159167E0058E83B /* park_2048.jpg */,
+				2742DF7D21590F450058E83B /* image */,
+				2742DF7B21590F190058E83B /* video */,
+				2742DF482158E9F90058E83B /* Main.storyboard */,
+				2742DF4B2158E9F90058E83B /* Assets.xcassets */,
+				2742DF4D2158E9F90058E83B /* LaunchScreen.storyboard */,
+				2742DF502158E9F90058E83B /* Info.plist */,
+				2742DF512158E9F90058E83B /* main.m */,
+			);
+			path = 360;
+			sourceTree = "<group>";
+		};
+		2742DF7B21590F190058E83B /* video */ = {
+			isa = PBXGroup;
+			children = (
+				2742DF662158EC5E0058E83B /* Shader.fsh */,
+				2742DF652158EC5E0058E83B /* Shader.vsh */,
+				2742DF5B2158EB2F0058E83B /* GLProgram.h */,
+				2742DF582158EB2F0058E83B /* GLProgram.m */,
+				2742DF5E2158EB300058E83B /* HTY360PlayerVC.h */,
+				2742DF592158EB2F0058E83B /* HTY360PlayerVC.m */,
+				2742DF5C2158EB2F0058E83B /* HTY360PlayerVC.xib */,
+				2742DF5D2158EB300058E83B /* HTYGLKVC.h */,
+				2742DF5A2158EB2F0058E83B /* HTYGLKVC.m */,
+				2742DF632158EB9B0058E83B /* demo.m4v */,
+			);
+			path = video;
+			sourceTree = "<group>";
+		};
+		2742DF7D21590F450058E83B /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		2742DF7E2159103D0058E83B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2742DF91215917410058E83B /* UIKit.framework */,
+				2742DF8F215917390058E83B /* CoreGraphics.framework */,
+				2742DF8D215917300058E83B /* Foundation.framework */,
+				2742DF8B215917250058E83B /* CoreMotion.framework */,
+				2742DF89215917160058E83B /* OpenGLES.framework */,
+				2742DF7F2159103E0058E83B /* GLKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2742DF3E2158E9F90058E83B /* 360 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2742DF552158E9F90058E83B /* Build configuration list for PBXNativeTarget "360" */;
+			buildPhases = (
+				2742DF3B2158E9F90058E83B /* Sources */,
+				2742DF3C2158E9F90058E83B /* Frameworks */,
+				2742DF3D2158E9F90058E83B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 360;
+			productName = 360;
+			productReference = 2742DF3F2158E9F90058E83B /* 360.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2742DF372158E9F90058E83B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Bhavana;
+				TargetAttributes = {
+					2742DF3E2158E9F90058E83B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2742DF3A2158E9F90058E83B /* Build configuration list for PBXProject "360" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2742DF362158E9F90058E83B;
+			productRefGroup = 2742DF402158E9F90058E83B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2742DF3E2158E9F90058E83B /* 360 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2742DF3D2158E9F90058E83B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2742DF642158EB9B0058E83B /* demo.m4v in Resources */,
+				2742DF4F2158E9F90058E83B /* LaunchScreen.storyboard in Resources */,
+				2742DF672158EC5F0058E83B /* Shader.vsh in Resources */,
+				2742DF4C2158E9F90058E83B /* Assets.xcassets in Resources */,
+				2742DF4A2158E9F90058E83B /* Main.storyboard in Resources */,
+				2742DF682158EC5F0058E83B /* Shader.fsh in Resources */,
+				2742DF622158EB300058E83B /* HTY360PlayerVC.xib in Resources */,
+				2742DF882159167F0058E83B /* park_2048.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2742DF3B2158E9F90058E83B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2712081F215A254400B79F22 /* picViewController.m in Sources */,
+				2742DF472158E9F90058E83B /* ViewController.m in Sources */,
+				2742DF5F2158EB300058E83B /* GLProgram.m in Sources */,
+				2742DF522158E9F90058E83B /* main.m in Sources */,
+				2742DF862159161C0058E83B /* PanoramaView.m in Sources */,
+				2742DF442158E9F90058E83B /* AppDelegate.m in Sources */,
+				2742DF602158EB300058E83B /* HTY360PlayerVC.m in Sources */,
+				2742DF612158EB300058E83B /* HTYGLKVC.m in Sources */,
+				2742DF83215915980058E83B /* panoimageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2742DF482158E9F90058E83B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2742DF492158E9F90058E83B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2742DF4D2158E9F90058E83B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2742DF4E2158E9F90058E83B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2742DF532158E9F90058E83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2742DF542158E9F90058E83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2742DF562158E9F90058E83B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YA5NH562EY;
+				INFOPLIST_FILE = 360/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.htc.-60";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2742DF572158E9F90058E83B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YA5NH562EY;
+				INFOPLIST_FILE = 360/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.htc.-60";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2742DF3A2158E9F90058E83B /* Build configuration list for PBXProject "360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2742DF532158E9F90058E83B /* Debug */,
+				2742DF542158E9F90058E83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2742DF552158E9F90058E83B /* Build configuration list for PBXNativeTarget "360" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2742DF562158E9F90058E83B /* Debug */,
+				2742DF572158E9F90058E83B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2742DF372158E9F90058E83B /* Project object */;
+}
